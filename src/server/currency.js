@@ -11,7 +11,7 @@ const updateConversionToSEK = (conversionInEuro) => {
   }
 };
 
-const getConversionRate () => {
+const getConversionRate = () => {
   axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
     .then((response) => {
       const { success, timestamp, rates } = response.data;
