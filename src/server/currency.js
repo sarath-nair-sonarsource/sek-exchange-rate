@@ -33,4 +33,876 @@ getConversionRate();
 
 const getLatestRates = () => localConversionRate;
 
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+
+const getConversionRate = () => {
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+};
+
+// this is some commented code
+
+const updateConversionToSEK2 = (conversionInEuro) => {
+  const euroToSEK = conversionInEuro.SEK;
+  for (const [key, value] of Object.entries(conversionInEuro)) {
+    localConversionRate[key] = value / euroToSEK;
+  }
+};
+
 module.exports = getLatestRates;
