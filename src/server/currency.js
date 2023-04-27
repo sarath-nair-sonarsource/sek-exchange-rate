@@ -898,7 +898,7 @@ const getConversionRate = () => {
 
 // this is some commented code
 
-const updateConversionToSEK2 = (conversionInEuro) => {
+const updateConversionToSEK = (conversionInEuro) => {
   const euroToSEK = conversionInEuro.SEK;
   for (const [key, value] of Object.entries(conversionInEuro)) {
     localConversionRate[key] = value / euroToSEK;
