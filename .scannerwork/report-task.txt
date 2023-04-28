@@ -1,0 +1,7 @@
+organization=sarath-nair-sonarsource
+projectKey=tesss
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.40490
+dashboardUrl=https://sonarcloud.io/dashboard?id=tesss
+ceTaskId=AYfHQa_3tOhQkzHi2ens
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYfHQa_3tOhQkzHi2ens

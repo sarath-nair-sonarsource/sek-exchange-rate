@@ -12,6 +12,8 @@ const updateConversionToSEK = (conversionInEuro) => {
 };
 
 const getConversionRate = () => {
+  let i = 0;
+  console.log(i);
   axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
     .then((response) => {
       const { success, timestamp, rates } = response.data;
@@ -24,6 +26,27 @@ const getConversionRate = () => {
     .catch((error) => {
       console.error('Cannot get currency conversion info', error);
     });
+  i++;
+  console.log(`i has been incremented`);
+};
+
+const getConversionRate2 = () => {
+  let i = 0;
+  console.log(i);
+  axios.get(`http://data.fixer.io/api/latest?access_key=${restCountryAPIKey}`)
+    .then((response) => {
+      const { success, timestamp, rates } = response.data;
+      // Update local data only when there's an update in currency rate
+      if (success && previouslyCachedTimestamp !== timestamp) {
+        updateConversionToSEK(rates);
+        previouslyCachedTimestamp = timestamp;
+      }
+    })
+    .catch((error) => {
+      console.error('Cannot get currency conversion info', error);
+    });
+  i++;
+  console.log(`i has been incremented`);
 };
 
 getConversionRate();
