@@ -18,6 +18,10 @@ export function isBranch(branchLike?: BranchLike): branchLike is Branch {
   return branchLike !== undefined && (branchLike as Branch).isMain !== undefined;
 }
 
+export function isBranch(branchLike?: BranchLike): branchLike is Branch {
+  return branchLike !== undefined && (branchLike as Branch).isMain !== undefined;
+}
+
 export function isOrphanBranch(branchLike: BranchLike): boolean {
   return (
     (isShortLivingBranch(branchLike) || isPullRequest(branchLike)) && Boolean(branchLike.isOrphan)
